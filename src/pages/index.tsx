@@ -1,9 +1,12 @@
+import BasicLayout from "@app/components/Layout/BasicLayout";
 import React from "react";
 
 const HomePage: React.FC = () => {
-  if (true) {
-  }
-  console.log("hello");
-  return <div>hello</div>;
+  return (
+    <div>
+      <BasicLayout>This is children</BasicLayout>
+    </div>
+  );
 };
+
 export default HomePage;
